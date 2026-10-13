@@ -1,0 +1,1396 @@
+.minutos-escritorio {
+  width: 100%;
+  position: relative;
+  background-color: #e8dfcd;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  isolation: isolate;
+  text-align: left;
+  font-size: 13px;
+  color: #27251f;
+  font-family: "IBM Plex Mono";
+}
+.introduccin {
+  align-self: stretch;
+  background-color: #e8dfcd;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 0;
+  font-size: 12px;
+}
+.men-de-captulos {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cabecera-de-publicacin {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 64px;
+  gap: 20px;
+}
+.nombre-de-publicacin {
+  position: relative;
+  font-weight: 600;
+}
+.mbito {
+  position: relative;
+  font-size: 11px;
+}
+.destinos {
+  align-self: stretch;
+  border-top: 1px solid #27251f;
+  border-bottom: 1px solid #27251f;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 14px 64px;
+  gap: 20px;
+  font-size: 10px;
+  color: #a65e3b;
+}
+.destino-de-captulo {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+.nmero-de-destino {
+  position: relative;
+}
+.etiqueta-de-destino {
+  position: relative;
+  font-size: 11px;
+  color: #27251f;
+}
+.portada-editorial {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 64px 64px;
+  gap: 24px;
+  font-size: 13px;
+}
+.cabecera-de-captulo {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.lnea-editorial {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: #27251f;
+}
+.ndice-de-captulo {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.ttulo-de-publicacin {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 246px;
+  font-family: Anton;
+}
+.ttulo-principal {
+  align-self: stretch;
+  position: relative;
+  line-height: 105%;
+}
+.subttulo-de-publicacin {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 72px;
+  color: #a65e3b;
+}
+.marca-editorial {
+  height: 62px;
+  width: 24px;
+  position: relative;
+  background-color: #a65e3b;
+}
+.subttulo {
+  flex: 1;
+  position: relative;
+  line-height: 110%;
+}
+.imagen-y-declaracin {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  font-size: 10px;
+  color: #e8dfcd;
+}
+.encadre-del-estadio {
+  width: 888px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.campo-documental-pendiente {
+  align-self: stretch;
+  height: 364px;
+  background-color: #27251f;
+  border: 1px solid #e8dfcd;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 32px;
+  position: relative;
+  isolation: isolate;
+  gap: 0px;
+}
+.guas-de-encuadre {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.18;
+  z-index: 0;
+  flex-shrink: 0;
+}
+.registro-de-encuadre {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.marca-de-registro {
+  position: relative;
+  font-size: 12px;
+}
+.estado-documental {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  z-index: 2;
+  flex-shrink: 0;
+  font-size: 62px;
+  font-family: Anton;
+}
+.estado-de-fotografa {
+  align-self: stretch;
+  position: relative;
+  line-height: 108%;
+}
+.condicin-de-archivo {
+  align-self: stretch;
+  position: relative;
+  font-size: 10px;
+  line-height: 150%;
+  font-family: "IBM Plex Mono";
+}
+.pie-de-encuadre {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 3;
+  flex-shrink: 0;
+  font-size: 12px;
+}
+.nota-de-verificacin {
+  position: relative;
+  font-size: 10px;
+}
+.descripcin-del-encuadre {
+  align-self: stretch;
+  background-color: #e8dfcd;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 14px 12px;
+  font-size: 12px;
+  color: #27251f;
+}
+.anotacin {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.declaracin-de-portada {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  font-size: 12px;
+  color: #27251f;
+}
+.frase-de-apertura {
+  align-self: stretch;
+  position: relative;
+  font-size: 34px;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: Archivo;
+}
+.texto-editorial {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  line-height: 160%;
+  font-family: Archivo;
+}
+.indicador-de-desplazamiento {
+  position: relative;
+  color: #a65e3b;
+}
+.lnea-editorial3 {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  background-color: #27251f;
+}
+.umbral-de-lectura {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: 12px 0px 0px;
+  gap: 40px;
+  font-size: 12px;
+}
+.premisa {
+  width: 400px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.titular {
+  align-self: stretch;
+  position: relative;
+  font-size: 60px;
+  line-height: 109%;
+  font-family: Anton;
+}
+.marco-de-lectura {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  font-size: 18px;
+  font-family: Archivo;
+}
+.texto-editorial2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+}
+.anotacin4 {
+  align-self: stretch;
+  position: relative;
+  font-size: 12px;
+  line-height: 150%;
+  font-family: "IBM Plex Mono";
+}
+.el-espectculo {
+  align-self: stretch;
+  background-color: #5b624b;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 1;
+  color: #e8dfcd;
+}
+.la-emocin-colectiva {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 64px;
+  gap: 32px;
+}
+.lnea-editorial4 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: #e8dfcd;
+}
+.titular2 {
+  align-self: stretch;
+  position: relative;
+  font-size: 147px;
+  line-height: 109%;
+  font-family: Anton;
+}
+.el-gol-y-su-eco {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  gap: 40px;
+  font-size: 294px;
+  font-family: Anton;
+}
+.consigna {
+  width: 510px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.la-promesa-del-ftbol {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 16px;
+  gap: 22px;
+  font-size: 30px;
+  font-family: Archivo;
+}
+.texto-editorial4 {
+  align-self: stretch;
+  position: relative;
+  line-height: 132%;
+}
+.texto-editorial5 {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  line-height: 160%;
+}
+.tribuna-y-ciudad {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  font-size: 10px;
+  color: #27251f;
+}
+.encuadre-de-aficionados {
+  width: 740px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.campo-documental-pendiente2 {
+  align-self: stretch;
+  height: 360px;
+  background-color: #d5c4a1;
+  border: 1px solid #27251f;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 32px;
+  position: relative;
+  isolation: isolate;
+  gap: 0px;
+}
+.descripcin-del-encuadre2 {
+  align-self: stretch;
+  background-color: #e8dfcd;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 14px 12px;
+  font-size: 12px;
+}
+.fuera-de-la-pantalla {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  font-size: 18px;
+  color: #e8dfcd;
+  font-family: Archivo;
+}
+.titular3 {
+  align-self: stretch;
+  position: relative;
+  font-size: 68px;
+  line-height: 109%;
+  font-family: Anton;
+}
+.vocabulario-de-la-celebracin {
+  align-self: stretch;
+  background-color: #e8dfcd;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 64px;
+  gap: 12px;
+  font-size: 163px;
+  color: #5b624b;
+  font-family: Anton;
+}
+.lnea-editorial6 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: #5b624b;
+}
+.palabra-monumental3 {
+  align-self: stretch;
+  position: relative;
+  font-size: 138px;
+  line-height: 108%;
+  text-align: right;
+}
+.anotacin8 {
+  align-self: stretch;
+  position: relative;
+  font-size: 12px;
+  line-height: 150%;
+  font-family: "IBM Plex Mono";
+  color: #27251f;
+}
+.la-transformacin {
+  align-self: stretch;
+  background-color: #d5c4a1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 64px;
+  gap: 32px;
+  z-index: 2;
+  font-size: 10px;
+}
+.cabecera-de-captulo3 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  font-size: 13px;
+}
+.titular4 {
+  align-self: stretch;
+  position: relative;
+  font-size: 119px;
+  line-height: 109%;
+  font-family: Anton;
+}
+.relaciones-de-la-obra {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+.plano-y-leyenda {
+  width: 770px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.plano-conceptual-de-relaciones {
+  align-self: stretch;
+  height: 476px;
+  background-color: #e8dfcd;
+  border: 1px solid #27251f;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+  isolation: isolate;
+  gap: 0px;
+}
+.retcula-de-construccin {
+  width: 770px;
+  height: 476px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  left: 0px;
+  opacity: 0.5;
+  z-index: 0;
+  flex-shrink: 0;
+}
+.franja-de-circulacin {
+  width: 770px;
+  height: 38px;
+  position: absolute;
+  margin: 0 !important;
+  top: 219px;
+  left: 0px;
+  background-color: #d5c4a1;
+  border-top: 1px solid #27251f;
+  border-bottom: 1px solid #27251f;
+  box-sizing: border-box;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.franja-de-circulacin2 {
+  width: 38px;
+  height: 347px;
+  position: absolute;
+  margin: 0 !important;
+  top: 64px;
+  left: 510px;
+  background-color: #d5c4a1;
+  border-right: 1px solid #27251f;
+  border-left: 1px solid #27251f;
+  box-sizing: border-box;
+  z-index: 2;
+  flex-shrink: 0;
+}
+.bloque-conceptual {
+  width: 137px;
+  height: 96px;
+  position: absolute;
+  margin: 0 !important;
+  top: 89px;
+  left: 590px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #5b624b;
+  box-sizing: border-box;
+  z-index: 3;
+  flex-shrink: 0;
+}
+.bloque-conceptual2 {
+  width: 238px;
+  height: 66px;
+  position: absolute;
+  margin: 0 !important;
+  top: 321px;
+  left: 52px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #a65e3b;
+  box-sizing: border-box;
+  z-index: 4;
+  flex-shrink: 0;
+}
+.recinto-conceptual {
+  width: 288px;
+  height: 120px;
+  position: absolute;
+  margin: 0 !important;
+  top: 97px;
+  left: 88px;
+  border-radius: 50%;
+  background-color: #5b624b;
+  z-index: 5;
+  flex-shrink: 0;
+}
+.vaco-conceptual {
+  width: 210px;
+  height: 76px;
+  position: absolute;
+  margin: 0 !important;
+  top: 119px;
+  left: 127px;
+  border-radius: 50%;
+  background-color: #e8dfcd;
+  z-index: 6;
+  flex-shrink: 0;
+}
+.etiqueta-de-recinto {
+  width: 42px;
+  height: 13px;
+  position: absolute;
+  margin: 0 !important;
+  top: 143px;
+  left: 178px;
+  display: inline-block;
+  z-index: 7;
+  flex-shrink: 0;
+}
+.etiqueta-de-barrio {
+  width: 80px;
+  height: 14px;
+  position: absolute;
+  margin: 0 !important;
+  top: 342px;
+  left: 106px;
+  font-size: 11px;
+  display: inline-block;
+  z-index: 8;
+  flex-shrink: 0;
+}
+.etiqueta-de-acceso {
+  width: 54px;
+  height: 13px;
+  position: absolute;
+  margin: 0 !important;
+  top: 277px;
+  left: 600px;
+  display: inline-block;
+  z-index: 9;
+  flex-shrink: 0;
+}
+.tipo-de-representacin {
+  align-self: stretch;
+  position: relative;
+  font-size: 11px;
+  z-index: 10;
+  flex-shrink: 0;
+}
+.lmite-de-interpretacin {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  z-index: 11;
+  flex-shrink: 0;
+}
+.anotacin9 {
+  align-self: stretch;
+  position: relative;
+  font-size: 12px;
+  line-height: 150%;
+}
+.la-obra-desde-la-calle {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  font-size: 18px;
+  font-family: Archivo;
+}
+.texto-editorial8 {
+  align-self: stretch;
+  position: relative;
+  font-size: 30px;
+  line-height: 132%;
+}
+.el-territorio-cotidiano {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: 16px 0px 0px;
+  gap: 40px;
+  color: #e8dfcd;
+}
+.encuadre-urbano {
+  width: 592px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.campo-documental-pendiente3 {
+  align-self: stretch;
+  height: 321px;
+  background-color: #27251f;
+  border: 1px solid #e8dfcd;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 32px;
+  position: relative;
+  isolation: isolate;
+  gap: 0px;
+}
+.preguntas-de-la-transformacin {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 12px;
+  color: #27251f;
+}
+.pregunta-urbana {
+  align-self: stretch;
+  border-top: 1px solid #27251f;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 0px;
+  gap: 12px;
+}
+.pregunta {
+  align-self: stretch;
+  position: relative;
+  font-size: 29px;
+  line-height: 125%;
+  font-family: Archivo;
+}
+.el-costo {
+  align-self: stretch;
+  background-color: #a65e3b;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 64px;
+  gap: 32px;
+  z-index: 3;
+  color: #e8dfcd;
+}
+.titular5 {
+  align-self: stretch;
+  position: relative;
+  font-size: 152px;
+  line-height: 109%;
+  font-family: Anton;
+}
+.el-balance-que-falta {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  font-size: 12px;
+}
+.promesa-cuestionada {
+  width: 550px;
+  background-color: #27251f;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+.promesa-tachada {
+  align-self: stretch;
+  position: relative;
+  font-size: 61px;
+  text-decoration: line-through;
+  line-height: 110%;
+  font-family: Anton;
+  color: #d5c4a1;
+}
+.palabra-superpuesta {
+  align-self: stretch;
+  position: relative;
+  font-size: 82px;
+  line-height: 110%;
+  font-family: Anton;
+}
+.economa-de-la-celebracin {
+  flex: 1;
+  background-color: #e8dfcd;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 20px;
+  font-size: 30px;
+  color: #27251f;
+  font-family: Archivo;
+}
+.tres-lentes-para-el-costo {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  font-size: 48px;
+  color: #27251f;
+  font-family: Archivo;
+}
+.lente-urbano {
+  align-self: stretch;
+  flex: 1;
+  background-color: #e8dfcd;
+  border: 1px solid #27251f;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 18px;
+}
+.tema {
+  align-self: stretch;
+  position: relative;
+  font-family: Anton;
+  color: #a65e3b;
+}
+.pregunta-central {
+  align-self: stretch;
+  position: relative;
+  font-size: 22px;
+  line-height: 125%;
+  font-weight: 600;
+}
+.quin-permanece {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  font-size: 10px;
+}
+.encuadre-del-comercio {
+  width: 680px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.campo-documental-pendiente4 {
+  align-self: stretch;
+  height: 290px;
+  background-color: #27251f;
+  border: 1px solid #e8dfcd;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 32px;
+  position: relative;
+  isolation: isolate;
+  gap: 0px;
+}
+.derecho-a-permanecer {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 0px;
+  gap: 22px;
+  font-size: 12px;
+}
+.titular6 {
+  align-self: stretch;
+  position: relative;
+  font-size: 76px;
+  line-height: 109%;
+  font-family: Anton;
+}
+.puente-hacia-la {
+  align-self: stretch;
+  position: relative;
+  font-size: 13px;
+  line-height: 160%;
+}
+.memoria-urbana {
+  align-self: stretch;
+  background-color: #e8dfcd;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 64px;
+  gap: 32px;
+  z-index: 4;
+}
+.la-historia-anterior {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  font-size: 108px;
+  font-family: Anton;
+}
+.titular7 {
+  flex: 1;
+  position: relative;
+  line-height: 109%;
+}
+.sello-de-memoria {
+  width: 190px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 0px 0px;
+  box-sizing: border-box;
+  gap: 12px;
+  font-size: 154px;
+  color: #a65e3b;
+}
+.nmero-de-captulo {
+  position: relative;
+  line-height: 110%;
+}
+.marco-del-archivo {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  font-size: 67px;
+  color: #5b624b;
+  font-family: Anton;
+}
+.identidad-del-barrio {
+  width: 410px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.territorio {
+  align-self: stretch;
+  position: relative;
+  line-height: 110%;
+}
+.habitar-antes-del-evento {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  font-size: 30px;
+  color: #27251f;
+  font-family: Archivo;
+}
+.mesa-de-archivo {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  font-size: 12px;
+}
+.registro-de-la-calle {
+  width: 820px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.reserva-de-fotografa-document5 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 10px;
+}
+.campo-documental-pendiente5 {
+  align-self: stretch;
+  height: 395px;
+  background-color: #d5c4a1;
+  border: 1px solid #27251f;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 32px;
+  position: relative;
+  isolation: isolate;
+  gap: 0px;
+}
+.registro-del-comercio {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 64px 0px 0px;
+  gap: 16px;
+}
+.campo-documental-pendiente6 {
+  align-self: stretch;
+  height: 306px;
+  background-color: #d5c4a1;
+  border: 1px solid #27251f;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+  isolation: isolate;
+  gap: 0px;
+}
+.estado-documental6 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  z-index: 2;
+  flex-shrink: 0;
+  font-size: 39px;
+  font-family: Anton;
+}
+.descripcin-del-encuadre6 {
+  align-self: stretch;
+  background-color: #e8dfcd;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 14px 12px;
+}
+.recuerdos-por-reunir {
+  align-self: stretch;
+  border-top: 1px solid #27251f;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: 16px 0px 0px;
+  gap: 40px;
+  font-size: 10px;
+  color: #e8dfcd;
+}
+.registro-del-encuentro {
+  width: 530px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.campo-documental-pendiente7 {
+  align-self: stretch;
+  height: 283px;
+  background-color: #27251f;
+  border: 1px solid #e8dfcd;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+  isolation: isolate;
+  gap: 0px;
+}
+.descripcin-del-encuadre7 {
+  align-self: stretch;
+  background-color: #e8dfcd;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 14px 12px;
+  color: #27251f;
+}
+.la-memoria-como-pregunta {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 0px 0px;
+  gap: 20px;
+  font-size: 68px;
+  color: #27251f;
+  font-family: Anton;
+}
+.titular8 {
+  align-self: stretch;
+  position: relative;
+  line-height: 109%;
+}
+.final {
+  align-self: stretch;
+  background-color: #27251f;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 64px 64px 32px;
+  gap: 40px;
+  z-index: 5;
+  font-size: 12px;
+  color: #e8dfcd;
+}
+.pregunta-final {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 119px;
+  font-family: Anton;
+}
+.titular10 {
+  align-self: stretch;
+  position: relative;
+  font-size: 160px;
+  line-height: 109%;
+  color: #d5c4a1;
+}
+.despus-del-silbatazo {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  font-family: Anton;
+}
+.los-tiempos-del-territorio {
+  width: 510px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.anotacin28 {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-family: "IBM Plex Mono";
+}
+.declaracin-final {
+  align-self: stretch;
+  position: relative;
+  font-size: 77px;
+  line-height: 108%;
+}
+.dos-tiempos {
+  align-self: stretch;
+  border: 1px solid #d5c4a1;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  font-size: 64px;
+  color: #d5c4a1;
+}
+.tiempo-del-evento {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 8px;
+}
+.anotacin29 {
+  align-self: stretch;
+  position: relative;
+  font-size: 12px;
+  line-height: 150%;
+  font-family: "IBM Plex Mono";
+  color: #e8dfcd;
+}
+.separacin-de-tiempos {
+  align-self: stretch;
+  width: 1px;
+  position: relative;
+  background-color: #d5c4a1;
+}
+.tiempo-de-la-ciudad {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 8px;
+  font-size: 12px;
+  color: #e8dfcd;
+  font-family: "IBM Plex Mono";
+}
+.continuidad-simblica {
+  align-self: stretch;
+  height: 83px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+.la-ciudad-contina {
+  height: 52px;
+  width: 52px;
+  position: relative;
+}
+.el-legado-como-responsabilidad {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+  font-size: 18px;
+  font-family: Archivo;
+}
+.preguntas-que-permanecen {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+.pregunta-urbana3 {
+  flex: 1;
+  border-top: 1px solid #e8dfcd;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 0px;
+  gap: 12px;
+}
+.regresar-al-inicio {
+  width: 370px;
+  height: 72px;
+  background-color: #d5c4a1;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  gap: 20px;
+  font-size: 14px;
+  color: #27251f;
+}
+.direccin-de-regreso {
+  position: relative;
+  font-size: 28px;
+  font-family: Archivo;
+}
+.colofn-editorial {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 0px 0px;
+  gap: 20px;
+}
+.identidad-de-cierre {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.publicacin {
+  flex: 1;
+  position: relative;
+}
+.localizacin-de-lectura {
+  flex: 1;
+  position: relative;
+  font-size: 11px;
+  text-align: right;
+}
+.anotacin34 {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  color: #d5c4a1;
+}
+.gua-de-margen {
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  bottom: 0px;
+  left: 32px;
+  background-color: #9f937c;
+  opacity: 0.25;
+  z-index: 6;
+}
+.gua-de-margen2 {
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  bottom: 0px;
+  left: 1407px;
+  background-color: #9f937c;
+  opacity: 0.25;
+  z-index: 7;
+}
